@@ -16,7 +16,7 @@ const router = createRouter({
 		{
 			path: '/robot',
 			component: Robot
-		},
+		}
 	],
 })
 
