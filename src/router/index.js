@@ -4,7 +4,7 @@ import Research from '../views/Research.vue'
 import Activity from '../views/Activity.vue'
 import News from '../views/News.vue'
 import Contact from '../views/Contact.vue'
-import memo from '../views/memo.vue'
+import Memo from '../views/Memo.vue'
 
 const router = createRouter({
 	history: createWebHistory(),
