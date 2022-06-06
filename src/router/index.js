@@ -1,6 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
-import Robot from '../views/Robot.vue'
+import Research from '../views/Research.vue'
+import Activity from '../views/Activity.vue'
+import News from '../views/News.vue'
+import Contact from '../views/Contact.vue'
+import memo from '../views/memo.vue'
 
 const router = createRouter({
 	history: createWebHistory(),
@@ -14,9 +18,29 @@ const router = createRouter({
 			component: () => import('../views/About.vue')
 		},
 		{
-			path: '/robot',
-			component: Robot
-		}
+			path: '/research',
+			component: Research
+		},
+		{
+			path: '/members',
+			component: () => import('../views/Members.vue')
+		},
+		{
+			path: '/activity',
+			component: Activity
+		},
+		{
+			path: '/news',
+			component: News
+		},
+		{
+			path: '/contact',
+			component: Contact
+		},
+		{
+			path: '/memo',
+			component: Memo
+		},
 	],
 })
 
