@@ -35,29 +35,6 @@
 
 
 <style lang="scss" scoped>
-.contents{
-  position: relative;
-  width: 900px;
-  min-height: 0px;
-  margin: 45px auto 0;
-
-  .title{
-    overflow: hidden;
-    width: 100%;
-    height: 2rem;
-    margin-bottom: 3rem;
-
-    h2{
-      display: inline-block;
-      height: 30px;
-      margin-top: 0px;
-      color: var(--black);
-      font-size: 28px;
-      letter-spacing: -1px;
-    }
-  }
-}
-
 .introduce-page{
   position: relative;
   width: 100%;
