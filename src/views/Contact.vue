@@ -36,7 +36,6 @@
   height: 100%;
 
   .section-contact{
-    overflow: hidden;
     width: 100%;
 
     .contact-text-section{
