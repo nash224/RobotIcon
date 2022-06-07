@@ -111,28 +111,7 @@
   overflow: hidden;
   width: 100%;
   height: 100%;
-
-  .contents{
-    position: relative;
-    width: 900px;
-    margin: 45px auto 0;
-
-    .title{
-      overflow: hidden;
-      height: 2rem;
-      margin-bottom: 3rem;
-
-      h2{
-        display: inline-block;
-        height: 30px;
-        margin-top: 0px;
-        color: var(--black);
-        font-size: 28px;
-        letter-spacing: -1px;
-      }
-    }
-  }
-
+  
   .section-research{
     display: block;
     width: 100%;

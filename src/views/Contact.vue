@@ -2,7 +2,7 @@
   <main class="contact-page">
     <div class="contents">
       <div class="title">
-        <h2>Contant us</h2>
+        <h2>Contact us</h2>
       </div>
       <div class="section-contact">
         <div class="contact-text-section">
@@ -29,28 +29,6 @@
 
 
 <style lang="scss" scoped>
-.contents{
-  position: relative;
-  width: 900px;
-  min-height: 0px;
-  margin: 45px auto 0;
-
-  .title{
-    overflow: hidden;
-    height: 2rem;
-    margin-bottom: 3rem;
-
-    h2{
-      display: inline-block;
-      height: 30px;
-      margin-top: 0px;
-      color: var(--black);
-      font-size: 28px;
-      letter-spacing: -1px;
-    }
-  }
-}
-
 .contact-page{
   position: relative;
   overflow: hidden;
