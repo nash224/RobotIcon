@@ -1,7 +1,7 @@
 <template>
 	<div class="app">
 		<sidebar />
-		<router-view></router-view>
+		<router-view class="router-view"></router-view>
 	</div>
 </template>
 
@@ -12,6 +12,18 @@ import Sidebar from './components/Sidebar.vue'
 </script>
 
 <style lang="scss">
+body {
+	background: #fff;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	position:absolute;
+	display: flex;
+}
+#app{
+	flex:1;
+	display: flex;
+}
 :root {
 	--primary: #4ade80;
 	--grey: #64748b;
@@ -32,9 +44,7 @@ import Sidebar from './components/Sidebar.vue'
 	font-family: 'Fira sans', sans-serif;
 	
 }
-body {
-	background: #fff;
-}
+
 
 button {
 	cursor: pointer;
@@ -45,6 +55,7 @@ button {
 }
 
 .app {
+	flex:1;
 	display: flex;
 
 	main {
@@ -55,5 +66,29 @@ button {
 		}
 	}
 }
+.contents{
+  position: relative;
+  width: 900px;
+  min-height: 0px;
+  margin: 45px auto 0;
 
+  .title{
+    overflow: hidden;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 3rem;
+
+    h2{
+      display: inline-block;
+      height: 30px;
+      margin-top: 0px;
+      color: var(--black);
+      font-size: 28px;
+      letter-spacing: -1px;
+    }
+  }
+}
+.router-view{
+	overflow-y: scroll;
+}
 </style>

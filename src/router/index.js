@@ -7,7 +7,7 @@ import Contact from '../views/Contact.vue'
 import Memo from '../views/Memo.vue'
 
 const router = createRouter({
-	history: createWebHistory(),
+	history: createWebHistory('/RobotIcon'),
 	routes: [
 		{
 			path: '/',
