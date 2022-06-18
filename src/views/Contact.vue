@@ -67,7 +67,7 @@
     
     .contact-map{
       width: 602px;
-      height: 452px;
+      height: 453px;
       border: 1px solid var(--dark-alt);
 
     }

@@ -83,7 +83,7 @@ button {
       height: 30px;
       margin-top: 0px;
       color: var(--black);
-      font-size: 28px;
+      font-size: 27px;
       letter-spacing: -1px;
     }
   }
